@@ -1,0 +1,42 @@
+.related-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.related-item div:first-child {
+  margin-right: 8px;
+  height: 110px;
+  width: 200px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.related-item div:first-child img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.related-item div:nth-child(2) {
+  flex: 1;
+}
+
+.related-item div:nth-child(2) h2 {
+  margin-bottom: 4px;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  color: var(--text-primary);
+}
+
+.related-item div:nth-child(2) span {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #606060
+}
